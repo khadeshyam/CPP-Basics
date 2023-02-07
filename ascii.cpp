@@ -26,6 +26,11 @@ int main()
     cout<<"convert B to Lowercase "<<char('B'+('a'-'A'))<<endl;
     cout<<"convert b to Uppercase "<<char('b'+('A'-'a'))<<endl;
 
+    cout<<"convert B to Lowercase "<<char(tolower('B'))<<endl;
+    cout<<"convert a to Uppercase "<<char(toupper('a'))<<endl;
+
+    cout<<"convert b to Lowercase "<<char(tolower('b'))<<endl;
+    cout<<"convert A to Uppercase "<<char(toupper('A'))<<endl;
 
 
 }

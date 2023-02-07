@@ -19,6 +19,6 @@ int main()
     {
         cout << ch << " is neither a digit nor an alphabet" << endl;
     }
-
+        
     return 0;
 }
